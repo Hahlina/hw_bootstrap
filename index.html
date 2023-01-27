@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <title>Bootstrap</title>
+  </head>
+  <body class="d-flex flex-column">
+    <header
+      class="d-flex flex-wrap justify-content-between align-items-center bg-light p-2 gap-3"
+    >
+      <div class="logo">
+        <a
+          href="#"
+          class="d-flex gap-4 align-items-center text-dark text-decoration-none fs-4"
+        >
+          <img src="./src/ad.png" alt="logo" /> AD'S BOARD</a
+        >
+      </div>
+      <div class="btn_block d-flex gap-4 align-items-center">
+        <button class="btn bg-warning d-flex align-items-center gap-2">
+          <div class="plus position-relative">
+            <span class="d-block bg-black"></span>
+            <span class="d-block bg-black position-absolute top-50"></span>
+          </div>
+          <a href="#" class="text-dark text-decoration-none fs-5"> New ad</a>
+        </button>
+        <div class="profile">
+          <a href="#" class="text-decoration-none fs-4">
+            <img src="./src/av_64.png" alt="avatar" />
+            My profile
+          </a>
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <section
+        class="forms flex-wrap py-2 mt-5 d-flex justify-content-center align-items-center bg-info gap-3 bg-opacity-80 rounded-2"
+      >
+        <div class="search d-flex rounded-3 overflow-hidden">
+          <div
+            class="bg-secondary d-flex justify-content-center align-items-center"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="40"
+              height="20"
+              fill="currentitem color"
+              class="bi bi-search"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+              />
+            </svg>
+          </div>
+          <input type="text" placeholder="11 999 345 ads near you" />
+        </div>
+        <div class="area d-flex rounded-3 overflow-hidden">
+          <div
+            class="bg-secondary d-flex justify-content-center align-items-center"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="40"
+              height="20"
+              fill="currentitem color"
+              class="bi bi-geo-alt-fill"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"
+              />
+            </svg>
+          </div>
+          <input type="text" placeholder="Kiev, Kiev, area" />
+        </div>
+        <button type="button" class="btn btn-primary">
+          <a href="#" class="text-light fs-4 text-decoration-none">Search</a>
+        </button>
+      </section>
+      <section class="category mt-5 row row-gap-5">
+        <div class="item col">
+          <a
+            href="#"
+            class="d-flex gap-3 text-nowrap align-items-center text-dark text-decoration-none fs-4"
+          >
+            <img src="./src/1.svg" alt="" />
+            Children's world
+          </a>
+        </div>
+        <div class="item col">
+          <a
+            href="#"
+            class="d-flex gap-3 text-nowrap align-items-center text-dark text-decoration-none fs-4"
+          >
+            <img src="./src/2.svg" alt="" />
+            Property
+          </a>
+        </div>
+        <div class="item col">
+          <a
+            href="#"
+            class="d-flex gap-3 text-nowrap align-items-center text-dark text-decoration-none fs-4"
+          >
+            <img src="./src/3.svg" alt="" />
+            Transport
+          </a>
+        </div>
+        <div class="item col">
+          <a
+            href="#"
+            class="d-flex gap-3 text-nowrap align-items-center text-dark text-decoration-none fs-4"
+          >
+            <img src="./src/4.svg" alt="" />
+            Spare pats for cars
+          </a>
+        </div>
+
+        <div class="item col">
+          <a
+            href="#"
+            class="d-flex gap-3 text-nowrap align-items-center text-dark text-decoration-none fs-4"
+          >
+            <img src="./src/5.svg" alt="" />
+            Jobs
+          </a>
+        </div>
+        <div class="item col">
+          <a
+            href="#"
+            class="d-flex gap-3 text-nowrap align-items-center text-dark text-decoration-none fs-4"
+          >
+            <img src="./src/6.svg" alt="" />
+            Animals
+          </a>
+        </div>
+        <div class="item col">
+          <a
+            href="#"
+            class="d-flex gap-3 text-nowrap align-items-center text-dark text-decoration-none fs-4"
+          >
+            <img src="./src/7.svg" alt="" />
+            House & garden
+          </a>
+        </div>
+        <div class="item col">
+          <a
+            href="#"
+            class="d-flex gap-3 text-nowrap align-items-center text-dark text-decoration-none fs-4"
+          >
+            <img src="./src/13.svg" alt="" />
+            Phones, Tablet & PCs
+          </a>
+        </div>
+
+        <div class="item col">
+          <a
+            href="#"
+            class="d-flex gap-3 text-nowrap align-items-center text-dark text-decoration-none fs-4"
+          >
+            <img src="./src/8.svg" alt="" />
+            Business & services
+          </a>
+        </div>
+        <div class="item col">
+          <a
+            href="#"
+            class="d-flex gap-3 text-nowrap align-items-center text-dark text-decoration-none fs-4"
+          >
+            <img src="./src/9.svg" alt="" />
+            Fashion & style
+          </a>
+        </div>
+        <div class="item col">
+          <a
+            href="#"
+            class="d-flex gap-3 align-items-center text-dark text-decoration-none fs-4"
+          >
+            <img src="./src/10.svg" alt="" />
+            Hobbies, recreation & sports
+          </a>
+        </div>
+        <div class="item col">
+          <a
+            href="#"
+            class="d-flex gap-3 text-nowrap align-items-center text-dark text-decoration-none fs-4"
+          >
+            <img src="./src/11.svg" alt="" />
+            Gifts
+          </a>
+        </div>
+
+        <div class="item col">
+          <a
+            href="#"
+            class="d-flex gap-3 text-nowrap align-items-center text-dark text-decoration-none fs-4"
+          >
+            <img src="./src/12.svg" alt="" />
+            Exchange
+          </a>
+        </div>
+      </section>
+      <footer
+        class="mt-5 d-flex align-items-center justify-content-around py-5 border-top flex-wrap gap-4"
+      >
+        <a href="#"><img src="./src/ad_bw.png" alt="" /></a>
+        <ul class="d-flex flex-column gap-3">
+          <li class="list-group-item">
+            <a href="#" class="text-decoration-none">Mobile application</a>
+          </li>
+          <li class="list-group-item">
+            <a href="#" class="text-decoration-none">Paid services</a>
+          </li>
+          <li class="list-group-item">
+            <a href="#" class="text-decoration-none"
+              >Advertising on the website</a
+            >
+          </li>
+          <li class="list-group-item">
+            <a href="#" class="text-decoration-none">For the press</a>
+          </li>
+          <li class="list-group-item">
+            <a href="#" class="text-decoration-none">Help and Feedback</a>
+          </li>
+        </ul>
+        <ul class="d-flex flex-column gap-3">
+          <li class="list-group-item">
+            <a href="#" class="text-decoration-none">Mobile application</a>
+          </li>
+          <li class="list-group-item">
+            <a href="#" class="text-decoration-none">Paid services</a>
+          </li>
+          <li class="list-group-item">
+            <a href="#" class="text-decoration-none"
+              >Advertising on the website</a
+            >
+          </li>
+          <li class="list-group-item">
+            <a href="#" class="text-decoration-none">For the press</a>
+          </li>
+          <li class="list-group-item">
+            <a href="#" class="text-decoration-none">Help and Feedback</a>
+          </li>
+        </ul>
+        <ul class="d-flex flex-column gap-3">
+          <li class="list-group-item">
+            <a href="#" class="text-decoration-none">Mobile application</a>
+          </li>
+          <li class="list-group-item">
+            <a href="#" class="text-decoration-none">Paid services</a>
+          </li>
+          <li class="list-group-item">
+            <a href="#" class="text-decoration-none"
+              >Advertising on the website</a
+            >
+          </li>
+          <li class="list-group-item">
+            <a href="#" class="text-decoration-none">For the press</a>
+          </li>
+          <li class="list-group-item">
+            <a href="#" class="text-decoration-none">Help and Feedback</a>
+          </li>
+        </ul>
+      </footer>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
